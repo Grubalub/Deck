@@ -81,13 +81,13 @@ func main() {
 	fmt.Println("Dealer:", dealer, "\nScore:", dScore)
 	switch {
 	case pScore > 21:
-		fmt.Println("You bust mutha-fucka!")
+		fmt.Println("You bust fool!")
 	case dScore > 21:
-		fmt.Println("The deala bust mutha-fucka!")
+		fmt.Println("The deala bust fool!")
 	case pScore > dScore:
-		fmt.Println("You won Bitch!")
+		fmt.Println("You won sucka!")
 	case pScore < dScore:
-		fmt.Println("You lost Bitch!")
+		fmt.Println("You lost sucka!")
 	case pScore == dScore:
 		fmt.Println("It's a draw fool")
 
